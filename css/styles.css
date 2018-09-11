@@ -56,6 +56,8 @@
         color: #555555;
         font-family: HelveticaNeueBold;
         font-size: 18px; }
+      .header__links ul li a:hover {
+        text-decoration: underline; }
 
 .header__contacts {
   text-align: right;
@@ -196,8 +198,10 @@
     /*margin-right:12px;*/ }
 
 .image-gallery {
-  display: flex;
-  justify-content: space-between; }
+  display: flex; }
+
+.img-slick {
+  overflow: hidden; }
 
 .left-arrow {
   max-width: 180px;
@@ -404,7 +408,8 @@
 .contact {
   width: 50%;
   display: flex;
-  align-items: flex-start; }
+  align-items: flex-start;
+  flex-wrap: wrap; }
 
 .contact-photo {
   border-radius: 50%;
@@ -471,6 +476,8 @@
     font-family: HelveticaNeueCondensedBold;
     color: #A9A9A9;
     text-decoration: none; }
+  .footer-list li a:hover {
+    text-decoration: underline; }
   .footer-list li:first-child {
     margin-bottom: 20px; }
     .footer-list li:first-child a {
@@ -480,6 +487,8 @@
       color: white;
       text-decoration: none;
       text-transform: uppercase; }
+    .footer-list li:first-child a:hover {
+      text-decoration: underline; }
 
 .footer-user-links {
   display: flex;
@@ -493,11 +502,14 @@
 .footer__links {
   display: flex;
   justify-content: center;
-  width: 80%; }
+  width: 80%;
+  flex-wrap: wrap; }
   .footer__links a {
     text-decoration: none;
     color: #A9A9A9;
     margin: 0 20px; }
+  .footer__links a:hover {
+    text-decoration: underline; }
   .footer__links p {
     margin: 0 20px; }
 
@@ -508,10 +520,79 @@
     text-decoration: none;
     margin: 10px 10px; }
 
+.header__burger {
+  display: none;
+  /*position:relative;*/ }
+
+.burger__bar1, .burger__bar2, .burger__bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s; }
+
+.header__burger:hover {
+  cursor: pointer; }
+
+.burger-menu {
+  display: none;
+  /*position:absolute;*/
+  top: 0;
+  right: 0; }
+  .burger-menu ul {
+    width: 100%;
+    list-style: none;
+    text-align: left; }
+    .burger-menu ul li {
+      /*display:inline-block;*/
+      margin: 10px 0; }
+      .burger-menu ul li a {
+        text-decoration: none;
+        color: #555555;
+        font-family: HelveticaNeueBold;
+        font-size: 24px; }
+      .burger-menu ul li a:hover {
+        text-decoration: underline; }
+
+.js-burger-menu {
+  display: block; }
+
 @media screen and (max-width: 1280px) {
   .banner__text h1 {
     white-space: normal;
     text-align: center; } }
+
+@media screen and (max-width: 1164px) {
+  .footer-lists {
+    text-align: center; }
+  .footer-list {
+    margin-right: 0;
+    padding-right: 20px; }
+    .footer-list :not(:first-child) {
+      display: none; } }
+
+@media screen and (max-width: 1147px) {
+  .services :last-child {
+    margin-left: auto;
+    margin-right: auto; } }
+
+@media screen and (min-width: 970px) {
+  .js-burger-menu {
+    display: none; } }
+
+@media screen and (max-width: 960px) {
+  .header__links {
+    display: none; }
+  .header__burger {
+    display: block;
+    align-self: center; }
+  .header {
+    margin-bottom: 0; } }
+
+@media screen and (max-width: 865px) {
+  .services :last-child {
+    margin-left: 0;
+    margin-right: 0; } }
 
 @media screen and (max-width: 850px) {
   .unique-square {
@@ -519,11 +600,24 @@
   .request-form {
     width: 100%; }
   .contact {
-    width: 100%; } }
+    width: 100%; }
+  .contacts__request-form {
+    padding-top: 50px; } }
 
-@media screen and (max-width: 412px) {
-  .banner__text h1 {
-    font-size: 36px; } }
+@media screen and (max-width: 583px) {
+  .services {
+    justify-content: center; } }
+
+@media screen and (max-width: 523px) {
+  .left-arrow, .right-arrow {
+    padding-left: 10px;
+    padding-right: 10px; }
+  .image-gallery {
+    justify-content: center; } }
+
+@media screen and (max-width: 515px) {
+  .big-sk, .banner__sk {
+    display: none; } }
 
 @media screen and (max-width: 430px) {
   .technical-specs__background .page h1 {
@@ -533,4 +627,16 @@
   .organise-event__background .page h1 {
     font-size: 36px; }
   .contact-header {
+    font-size: 36px; }
+  .header__contacts {
+    display: none; }
+  .header {
+    margin-bottom: 0; } }
+
+@media screen and (max-width: 412px) {
+  .banner__text h1 {
     font-size: 36px; } }
+
+@media screen and (max-width: 322px) {
+  .calendar {
+    min-width: 280px; } }
