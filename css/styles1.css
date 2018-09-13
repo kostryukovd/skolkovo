@@ -187,7 +187,10 @@ div{box-sizing: border-box;}
 
 @media screen and (max-width: 494px) {
 	.add-services__header{	font-size: 32px; }
-	.add-services__bars_item-text{	max-width: 90%;}
+	.add-services__bars_item-text{	
+		max-width: 100%;
+		line-height:1.5;
+		}
 
 	.add-services__bars_item{
 	font-size: 12px;
