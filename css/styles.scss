@@ -1,4 +1,4 @@
-$page-width: 1203px;
+$page-width: 1200px;
 
 @font-face {
 	font-family: HelveticaNeueMedium;
@@ -39,12 +39,13 @@ $page-width: 1203px;
 .page {
 	max-width:$page-width;
 	margin:0 auto;
+
 }
 
 .header {
 	display:flex;
 	justify-content:space-between;
-	margin-bottom:71px;
+	margin-bottom:68px;
 }
 
 .header__img {
@@ -54,14 +55,19 @@ align-self: flex-start;
 .header__links {
 display:flex;
 align-items:center;
-width:60%;
-	ul{	
+
+
+width:56%;
+	ul{		
+
 		width:100%;
 		display:flex; 
 		justify-content:space-around;
 		align-items:center;
 		list-style: none;
-			li:not(:first-child)
+
+
+					li:not(:first-child)
 				{
 
 					&::after
@@ -72,9 +78,15 @@ width:60%;
 						}
 
 					}
+
+
 			li {
-				/*display:inline-block;*/
-					a{
+
+
+
+
+
+					a{	
 						text-decoration:none;
 						color:#555555;
 						font-family: HelveticaNeueBold;
@@ -89,12 +101,15 @@ width:60%;
 					
 						
 				}
+
+
+
+
 		}
 }
 
 .header__contacts{
 	text-align:right;
-	/*vertical-align: center;*/
 	display:flex;
 	flex-direction:column;
 	justify-content:center;
@@ -133,13 +148,14 @@ color: #3477DB;
 
 .banner__text {
 
-		h1 {
+		h1{
 			font-family: HelveticaNeueBlack;
 			font-size: 48px;
 			text-transform: uppercase;
 			color: #FFFFFF;
 			text-align:left;
 			white-space:nowrap;
+			letter-spacing:-1px;
 		}
 		p {
 			font-family: HelveticaNeueCondensedBold;
@@ -154,7 +170,7 @@ color: #3477DB;
 {	
 	width:156px;
 	border-bottom:3px solid white;
-	margin:30px auto;
+	margin:32px auto;
 }
 
 .banner__sk
@@ -207,7 +223,7 @@ color: #3477DB;
 	flex-direction:column;
 	justify-content:flex-start;
 
-	h1 {
+	h3 {
 		font-family: HelveticaNeueMedium;
 		line-height: 28px;
 		font-size: 22px;
@@ -227,7 +243,7 @@ color: #3477DB;
 		color: #555555;
 	}
 
-	h2,.low_text {
+	h4,.low_text {
 		font-family: HelveticaNeueRoman;
 		line-height: 28px;
 		font-size: 22px;
@@ -308,6 +324,7 @@ color: #3477DB;
 	border-bottom-left-radius: 50%;
 	border-top-left-radius: 50%;
 	text-align:center;
+	margin-right:24px;
 		&:hover
 		{
 			cursor:pointer;
@@ -378,7 +395,7 @@ color: #3477DB;
 	padding-top:70px;
 	.page
 	{
-		h1
+		h2
 		{
 			font-family: HelveticaNeueBold;
 			line-height: 87px;
@@ -410,7 +427,7 @@ color: #3477DB;
 {
 	background-color:#CDDD00;
 
-		h1
+		h2
 		{
 			font-family: HelveticaNeueBold;
 			line-height: 87px;
@@ -481,7 +498,7 @@ color: #3477DB;
 	padding: 20px 30px;
 	width:50%;
 	text-align:left;
-	h1
+	h3
 	{
 		font-family: HelveticaNeueBold;
 		line-height: normal;
@@ -1007,7 +1024,7 @@ left:0;
 	{
 		.page
 		{
-		h1
+		h2
 			{
 				font-size:36px;
 			}
@@ -1021,7 +1038,7 @@ left:0;
 	{
 		.page
 		{
-		h1
+		h2
 			{
 				font-size:36px;
 			}

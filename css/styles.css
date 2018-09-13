@@ -26,13 +26,13 @@
   box-sizing: border-box; }
 
 .page {
-  max-width: 1203px;
+  max-width: 1200px;
   margin: 0 auto; }
 
 .header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 71px; }
+  margin-bottom: 68px; }
 
 .header__img {
   align-self: flex-start; }
@@ -40,7 +40,7 @@
 .header__links {
   display: flex;
   align-items: center;
-  width: 60%; }
+  width: 56%; }
   .header__links ul {
     width: 100%;
     display: flex;
@@ -49,19 +49,16 @@
     list-style: none; }
     .header__links ul li:not(:first-child)::after {
       content: url("../img/polygon.svg"); }
-    .header__links ul li {
-      /*display:inline-block;*/ }
-      .header__links ul li a {
-        text-decoration: none;
-        color: #555555;
-        font-family: HelveticaNeueBold;
-        font-size: 18px; }
-      .header__links ul li a:hover {
-        text-decoration: underline; }
+    .header__links ul li a {
+      text-decoration: none;
+      color: #555555;
+      font-family: HelveticaNeueBold;
+      font-size: 18px; }
+    .header__links ul li a:hover {
+      text-decoration: underline; }
 
 .header__contacts {
   text-align: right;
-  /*vertical-align: center;*/
   display: flex;
   flex-direction: column;
   justify-content: center; }
@@ -99,7 +96,8 @@
   text-transform: uppercase;
   color: #FFFFFF;
   text-align: left;
-  white-space: nowrap; }
+  white-space: nowrap;
+  letter-spacing: -1px; }
 
 .banner__text p {
   font-family: HelveticaNeueCondensedBold;
@@ -111,7 +109,7 @@
 .banner__line {
   width: 156px;
   border-bottom: 3px solid white;
-  margin: 30px auto; }
+  margin: 32px auto; }
 
 .banner__sk {
   position: relative; }
@@ -149,7 +147,7 @@
   padding-top: 48px;
   flex-direction: column;
   justify-content: flex-start; }
-  .service_box h1 {
+  .service_box h3 {
     font-family: HelveticaNeueMedium;
     line-height: 28px;
     font-size: 22px;
@@ -164,7 +162,7 @@
     font-size: 14px;
     text-align: center;
     color: #555555; }
-  .service_box h2, .service_box .low_text {
+  .service_box h4, .service_box .low_text {
     font-family: HelveticaNeueRoman;
     line-height: 28px;
     font-size: 22px;
@@ -212,7 +210,8 @@
   padding-right: 81px;
   border-bottom-left-radius: 50%;
   border-top-left-radius: 50%;
-  text-align: center; }
+  text-align: center;
+  margin-right: 24px; }
   .left-arrow:hover {
     cursor: pointer;
     opacity: 0.8; }
@@ -264,7 +263,7 @@
   background-color: #414141;
   padding-bottom: 102px;
   padding-top: 70px; }
-  .technical-specs__background .page h1 {
+  .technical-specs__background .page h2 {
     font-family: HelveticaNeueBold;
     line-height: 87px;
     font-size: 60px;
@@ -287,7 +286,7 @@
   background-color: #CDDD00;
   padding-top: 80px;
   padding-bottom: 100px; }
-  .organise-event__background h1 {
+  .organise-event__background h2 {
     font-family: HelveticaNeueBold;
     line-height: 87px;
     font-size: 60px;
@@ -334,7 +333,7 @@
   padding: 20px 30px;
   width: 50%;
   text-align: left; }
-  .request-form h1 {
+  .request-form h3 {
     font-family: HelveticaNeueBold;
     line-height: normal;
     font-size: 24px;
@@ -620,11 +619,11 @@
     display: none; } }
 
 @media screen and (max-width: 430px) {
-  .technical-specs__background .page h1 {
+  .technical-specs__background .page h2 {
     font-size: 36px; } }
 
 @media screen and (max-width: 430px) {
-  .organise-event__background .page h1 {
+  .organise-event__background .page h2 {
     font-size: 36px; }
   .contact-header {
     font-size: 36px; }
