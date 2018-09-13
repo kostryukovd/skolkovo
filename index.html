@@ -16,6 +16,9 @@
 
 <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 
+<link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+
+
 <!--<link rel="stylesheet" href="css/owl.carousel.min.css">
 <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
@@ -90,7 +93,7 @@ items:5,
 			</div>
 
 			<div class = "header__contacts">
-				<p class = "header__phone-num">+7 (495) 956 00 33 доб. 2596</p>
+				<a class = "header__phone-num" href = "tel:+749595600332596" >+7 (495) 956 00 33 доб. 2596</p>
 				<a class = "header__email" href = "mailto:ESamartseva@sk.ru">ESamartseva@sk.ru</a>
 			</div>
 
@@ -257,31 +260,31 @@ items:5,
 			<div class = "img-slick">
 
 			<div class = "image-gallery__img1">
-				<a href = #>
+				<a href = "img/img1-big.png" data-fancybox="gallery1" data-caption="Image 1">
 					<img src = "img/img1.png">
 				</a>
 			</div>
 			<div class = "image-gallery__img2">
-				<a href = #>
+				<a href = "img/img2-big.png" data-fancybox="gallery1" data-caption="Image 2">
 					<img src = "img/img2.png">
 				</a>
 			</div>
 			<div class = "image-gallery__img3">
-				<a href = #>
+				<a href = "img/img3-big.png" data-fancybox="gallery1" data-caption="Image 3">
 					<img src = "img/img3.png">
 				</a>
 			</div>
 			<div class = "image-gallery__img4">
-				<a href = #>
+				<a href = "img/img4-big.png" data-fancybox="gallery1" data-caption="Image 4">
 					<img src = "img/img4.png">
 				</a>
 			</div>
 
 
 
-			<div class = "image-gallery__img1">
-				<a href = #>
-					<img src = "img/img1.png">
+			<div class = "image-gallery__img3">
+				<a href = "img/img3-big.png" data-fancybox="gallery1" data-caption="Image 3">
+					<img src = "img/img3.png">
 				</a>
 			</div>
 
@@ -442,14 +445,14 @@ items:5,
 					</div>
  				</div>
 				<div class="add-services__bars_item">
- 					<img id="add-services__pic-3" src="img/opportunity-33.svg">
+ 					<img id="add-services__pic-3" src="img/opportunity-33.png">
  					<div class="add-services__bars_item-text">
  						Техническая поддержка
 					</div>
  				</div>
 
 				<div class="add-services__bars_item">
-					 <img id="add-services__pic-4" src="img/opportunity-44.svg">
+					 <img id="add-services__pic-4" src="img/opportunity-44.png">
 					 <div class="add-services__bars_item-text">
 					 	Охраняемая парковка вместимостью более 1700 мест
 					</div>
@@ -524,8 +527,8 @@ items:5,
 					<p class = "person-name">Самарцева Елизавета</p>
 					<p class = "person-position">Менеджер по организации мероприятий</p>
 					<br>
-					<p class = "contact__phone-num">+7 (495) 956 00 33 доб.2596</p>
-					<p class = "contact__phone-num"> +7 (910) 482 34 33</p>
+					<a class = "contact__phone-num" href = "tel:+749595600332596">+7 (495) 956 00 33 доб.2596</a>
+					<a class = "contact__phone-num" href = "tel:+79104823433"> +7 (910) 482 34 33</a>
 					<br>
 					<a class = "header__email" href = "mailto:ESamartseva@sk.ru">ESamartseva@sk.ru</a>
 				</div>
@@ -744,63 +747,95 @@ function expand_menu()
 
 
 
+
+
+
 <script src = "js/jquery-3.3.1.min.js"></script>
 <script type="text/javascript" src="slick/slick.min.js"></script>
 
+<script type="text/javascript" src="js/jquery.fancybox.min.js"></script>
+
 <script>
-	$(document).ready(function(){
-  $('.img-slick').slick({
+	$(document).ready(function()
+	{
+  $('.img-slick').slick
+  (
+  			{
   	slidesToShow:4,
 
     prevArrow: $(".left-arrow"),
     nextArrow: $(".right-arrow"),
       responsive: [
-    {
-      breakpoint: 1100,
-      settings: 
-	      {
-	        slidesToShow: 3,
+			    {
+			      breakpoint: 1100,
+			      settings: 
+				      {
+				        slidesToShow: 3,
 
-	      }
-    },
-    {
-      breakpoint: 920,
-      settings: 
-	      {
-	        slidesToShow: 2,
-	        
-	      }
-    },
-    {
-      breakpoint: 737,
-      settings: 
-	      {
-	        slidesToShow: 1,
-	        
-	      }
-    },
-    {
-      breakpoint: 523,
-      settings: 
-	      {
-	        slidesToShow: 2,
-	        
-	      }
-    },
-{
-      breakpoint: 400,
-      settings: 
-	      {
-	        slidesToShow: 1,
-	        
-	      }
-    }
+				      }
+			    },
+			    {
+			      breakpoint: 920,
+			      settings: 
+				      {
+				        slidesToShow: 2,
+				        
+				      }
+			    },
+			    {
+			      breakpoint: 737,
+			      settings: 
+				      {
+				        slidesToShow: 1,
+				        
+				      }
+			    },
+			    {
+			      breakpoint: 523,
+			      settings: 
+				      {
+				        slidesToShow: 2,
+				        
+				      }
+			    },
+				{
+			      breakpoint: 400,
+			      settings: 
+				      {
+				        slidesToShow: 1,
+				        
+				      }
+			    }
 
-    ]
-  });
-});
+    			]
+  			}
+  );
+
+$('[data-fancybox="gallery1"]').fancybox
+(
+	{
+			loop: true
+	}
+)
+
+}
+
+
+
+);
+
+
+
+
+
+
+
+
+
+
+
+
 </script>
-
 
 
 </body>

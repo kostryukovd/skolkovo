@@ -120,6 +120,7 @@ width:56%;
 font-size: 20px;
 margin-bottom:5px;
 color: #BFDF14;
+text-decoration:none;
 }
 
 .header__email{
@@ -638,12 +639,14 @@ flex-wrap:wrap;
 }
 
 .contact__phone-num
-{
+{	
+	display:block;
 	font-family: HelveticaNeueMedium;
 	line-height: normal;
 	font-size: 16px;
 	line-height: 25px;
 	color: #FF8530;
+	text-decoration:none;
 }
 
 .person-name
@@ -693,7 +696,8 @@ flex-wrap:wrap;
 	font-family:HelveticaNeueCondensedBold;
 	color:#A9A9A9;
 	padding-top:50px;
-	padding-left:30px;
+	padding-right:15px;
+	padding-left:15px;
 	padding-bottom:30px;
 
 }
@@ -972,10 +976,18 @@ left:0;
 		width:100%;
 	}
 
+	.contact-us
+	{
+		text-align:center;
+	}
+
 	.contact
 	{
 		width:100%;
+		justify-content:center;
 	}
+
+
 
 	  .contacts__request-form
   {
