@@ -2,96 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96d66211-e4ff-4ce9-bc15-548c3671a77e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/skolkovo.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/finalfix.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fancybox-master.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fancybox-master/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fancybox-master/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fancybox-master/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fancybox-master/dist/jquery.fancybox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fancybox-master/dist/jquery.fancybox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fancybox-master/dist/jquery.fancybox.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fancybox-master/docs/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fancybox-master/gulpfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fancybox-master/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fancybox-master/src/css/core.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fancybox-master/src/css/fullscreen.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fancybox-master/src/css/share.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fancybox-master/src/css/slideshow.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fancybox-master/src/css/thumbs.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fancybox-master/src/js/core.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fancybox-master/src/js/fullscreen.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fancybox-master/src/js/guestures.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fancybox-master/src/js/hash.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fancybox-master/src/js/media.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fancybox-master/src/js/share.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fancybox-master/src/js/slideshow.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fancybox-master/src/js/thumbs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fancybox-master/src/js/wheel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/font/helvetica-neue-cyr-condensed/Helvetica Neue Condensed Bold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/font/helvetica-neue-cyr_bold/font.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/font/helvetica-neue-cyr_bold/font.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/font/helvetica-neue-cyr_bold/font.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/font/helvetica-neue-cyr_bold/font.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/font/helvetica-neue-cyr_bold/font.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/font/helvetica-neue-cyr_normal/font.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/font/helvetica-neue-cyr_normal/font.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/font/helvetica-neue-cyr_normal/font.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/font/helvetica-neue-cyr_normal/font.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/font/helvetica-neue-cyr_normal/font.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery.fancybox.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/skolkovo.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slick-1.8.1.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slick-1.8.1/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slick-1.8.1/CONTRIBUTING.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slick-1.8.1/ISSUE_TEMPLATE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slick-1.8.1/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slick-1.8.1/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slick-1.8.1/README.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slick-1.8.1/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slick-1.8.1/component.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slick-1.8.1/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slick-1.8.1/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slick-1.8.1/slick.jquery.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slick-1.8.1/slick/ajax-loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slick-1.8.1/slick/config.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slick-1.8.1/slick/fonts/slick.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slick-1.8.1/slick/fonts/slick.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slick-1.8.1/slick/fonts/slick.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slick-1.8.1/slick/fonts/slick.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slick-1.8.1/slick/slick-theme.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slick-1.8.1/slick/slick-theme.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slick-1.8.1/slick/slick.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slick-1.8.1/slick/slick.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slick/ajax-loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slick/config.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slick/fonts/slick.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slick/fonts/slick.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slick/fonts/slick.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slick/fonts/slick.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slick/slick-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slick/slick-theme.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slick/slick-theme.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slick/slick.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slick/slick.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slick/slick.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slick/slick.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slick/slick.scss" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/libs/ajax-loader.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fancybox-master/dist/jquery.fancybox.min.js" afterPath="$PROJECT_DIR$/js/libs/jquery.fancybox.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/jquery-3.3.1.min.js" afterPath="$PROJECT_DIR$/js/libs/jquery-3.3.1.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/owl.carousel.js" afterPath="$PROJECT_DIR$/js/libs/owl.carousel.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/owl.carousel.min.js" afterPath="$PROJECT_DIR$/js/libs/owl.carousel.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/slick-1.8.1/slick/slick-theme.css" afterPath="$PROJECT_DIR$/css/libs/slick-theme.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/slick-1.8.1/slick/slick.css" afterPath="$PROJECT_DIR$/css/libs/slick.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/slick-1.8.1/slick/slick.js" afterPath="$PROJECT_DIR$/js/libs/slick.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/slick-1.8.1/slick/slick.min.js" afterPath="$PROJECT_DIR$/js/libs/slick.min.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -102,7 +15,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="finalfix.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="finalfix.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/finalfix.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
@@ -112,11 +25,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+            <state relative-caret-position="1364">
+              <caret line="372" column="20" lean-forward="false" selection-start-line="372" selection-start-column="20" selection-end-line="372" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rename.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rename.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -126,7 +49,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+              <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -136,7 +59,7 @@
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="796">
-              <caret line="79" column="0" lean-forward="true" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+              <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -156,6 +79,9 @@
     <findStrings>
       <find>expa</find>
       <find>fancy</find>
+      <find>Сервися</find>
+      <find>fanc</find>
+      <find>data-fancybox</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -165,9 +91,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/css/finalfix.css" />
+        <option value="$PROJECT_DIR$/rename.php" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -186,7 +113,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="89" />
+    <option name="x" value="523" />
+    <option name="y" value="21" />
     <option name="width" value="1831" />
     <option name="height" value="1041" />
   </component>
@@ -224,6 +152,17 @@
               <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="libs" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="skolkovo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="skolkovo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="img" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="skolkovo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="skolkovo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="img" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="gallery" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -238,6 +177,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\OpenServer\OSPanel\domains\skolkovo\img\gallery" />
       <recent name="D:\OpenServer\OSPanel\domains\skolkovo\css\libs" />
       <recent name="D:\OpenServer\OSPanel\domains\skolkovo\css" />
       <recent name="D:\OpenServer\OSPanel\domains\skolkovo\js\libs" />
@@ -265,33 +205,32 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1536919781864</updated>
-      <workItem from="1536919783319" duration="2131000" />
+      <workItem from="1536919783319" duration="6318000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2131000" />
+    <option name="totallyTimeSpent" value="6318000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="89" y="0" width="1831" height="1041" extended-state="0" />
-    <editor active="true" />
+    <frame x="523" y="21" width="1831" height="1041" extended-state="0" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24957651" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -310,15 +249,7 @@
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="796">
-          <caret line="79" column="0" lean-forward="true" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -326,7 +257,7 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -335,6 +266,42 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/gallery/1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/gallery/2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/gallery/3.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rename.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/img1-big.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1364">
+          <caret line="372" column="20" lean-forward="false" selection-start-line="372" selection-start-column="20" selection-end-line="372" selection-end-column="20" />
           <folding />
         </state>
       </provider>
