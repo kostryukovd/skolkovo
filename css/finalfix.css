@@ -1,0 +1,30 @@
+.gray {
+    color: rgb(169, 169, 169);
+    text-decoration: none;
+}
+
+@media (max-width: 991px) {
+    .services {
+        padding: 0 15px;
+    }
+    .add-services__header, .contact-header {
+        font-size: 32px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .technical-specs__background .page h2, .organise-event__background h2 {
+        font-size: 32px;
+        padding: 0 15px;
+        line-height:1.2;
+    }
+    .banner__text h1 {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 572px) {
+    .text__service {
+       box-shadow: none;
+    }
+}
