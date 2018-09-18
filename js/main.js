@@ -77,3 +77,25 @@ function expand_menu() {
         burg[0].classList.add("js-burger-menu");
     }
 }
+
+
+
+$(".form").click(function(e) {
+    e.preventDefault();
+
+    var form = $(this);
+    var data = form.serialize();
+
+    $.ajax({
+        method: "POST",
+        data: data,
+        url: "http://testprojects.ct39665.tmweb.ru/skolkovo_email/index.php",
+        success: function (response) {
+            console.log('Инфа вернулась: ', response)
+        },
+        error:  function (response) {
+            console.log('Запрос провалилися: ', response)
+        }
+
+    });
+});
